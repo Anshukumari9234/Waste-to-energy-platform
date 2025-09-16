@@ -1,0 +1,90 @@
+.login-wrapper {
+  display: flex;
+  min-height: 100vh;
+  background: #f8fafc;
+}
+
+.login-banner {
+  flex: 1;
+  background: linear-gradient(135deg, #16a34a, #059669);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3rem;
+}
+
+.login-banner h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.login-banner p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.login-box {
+  flex: 1;
+  background: white;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: -4px 0 20px rgba(0,0,0,0.05);
+}
+
+.login-box h2 {
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+  color: #111827;
+}
+
+.subtitle {
+  margin-bottom: 2rem;
+  color: #6b7280;
+}
+
+.login-form .form-group {
+  margin-bottom: 1rem;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+}
+
+.login-form input:focus {
+  border-color: #16a34a;
+  outline: none;
+}
+
+.btn-login {
+  width: 100%;
+  padding: 0.9rem;
+  background: #16a34a;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn-login:hover {
+  background: #059669;
+}
+
+.register-link {
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+.register-link a {
+  color: #16a34a;
+  text-decoration: none;
+  font-weight: 500;
+}
