@@ -1,12 +1,55 @@
-# React + Vite
+# Waste-to-Energy Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A platform to report, track, and learn about waste-to-energy initiatives.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- User registration/login
+- Dashboard for tracking waste reports
+- Real-time updates with Socket.io
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+- Node.js >= 18
+- npm
+
+### Installation
+
+```bash
+git clone https://github.com/Anshukumari9234/Waste-to-energy-platform.git
+cd Waste-to-energy-platform
+npm install
+```
+
+### Environment Variables
+
+Copy `.env.example` to `.env` and fill in required values.
+
+### Running Backend
+
+```bash
+npm run start-server
+```
+
+### Running Frontend
+
+```bash
+npm run dev
+```
+
+## Folder Structure
+
+- `src/components`: React components
+- `src/styles`: CSS files
+- `server.js`: Backend server
+
+## Contributing
+
+- Fork and clone the repo
+- Create feature branches
+- Submit pull requests
+
+## License
+
+MIT
